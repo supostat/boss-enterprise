@@ -1,8 +1,13 @@
 const router = require('koa-router')()
 
 router.get('/', async (ctx, next) => {
+  const {userAgent} = ctx;
+  let isMobile = false;
+  if (userAgent) {
+    isMobile = userAgent.isMobile;
+  }
   await ctx.render('index', {
-    title: 'Hello Koa 2!'
+    isMobile: isMobile
   })
 })
 
