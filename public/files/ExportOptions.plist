@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://boss-enterprise.herokuapp.com/files/ios.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://boss-enterprise.herokuapp.com/images/small.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://boss-enterprise.herokuapp.com/images/big.png</string>
+	</dict>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.pubinvestgroup.nsecurityapp</key>
+		<string>SecurityApp</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>X4AYFYCJD4</string>
+	<key>thinning</key>
+	<string>&lt;thin-for-all-variants&gt;</string>
+</dict>
+</plist>
